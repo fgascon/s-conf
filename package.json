@@ -1,0 +1,21 @@
+{
+  "name": "s-conf",
+  "version": "0.0.0",
+  "description": "Service configuration based on JSON file",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fgascon/s-conf.git"
+  },
+  "keywords": [
+    "configuration",
+    "service",
+    "daemon"
+  ],
+  "author": "fgascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fgascon/s-conf/issues"
+  },
+  "homepage": "https://github.com/fgascon/s-conf"
+}
