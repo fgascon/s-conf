@@ -7,11 +7,13 @@ function die(message) {
     process.exit(1);
 }
 
-if (!process.argv[2]) {
+var configPath = process.env.CONFIG || process.argv[2];
+
+if (!configPath) {
     die('Config path missing');
 }
 
-var configPath = path.resolve(process.argv[2]);
+configPath = path.resolve(configPath);
 
 function parse(configText) {
     return new Options(JSON.parse(configText));
