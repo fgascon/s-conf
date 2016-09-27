@@ -1,6 +1,6 @@
 {
   "name": "s-conf",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Service configuration based on JSON file",
   "main": "index.js",
   "repository": {
