@@ -27,3 +27,8 @@ To get a mandatory config parameter.
 ### config.get(name, [defaultValue])
 To get an optional config parameter. It will default to ```defaultValue``` if ```name``` is not present in the config file.
 
+### config.watch(changeListener)
+Watch for config reload
+
+### config.reload([callback])
+Reload the config from the config file

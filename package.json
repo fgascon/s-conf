@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/fgascon/s-conf/issues"
   },
-  "homepage": "https://github.com/fgascon/s-conf"
+  "homepage": "https://github.com/fgascon/s-conf",
+  "dependencies": {
+    "wrap-options": "0.0.3"
+  }
 }

@@ -1,3 +1,12 @@
 {
-    "http_port": 3000
+    "http": {
+      "port": 3000,
+      "ip": "0.0.0.0"
+    },
+    "db": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "test",
+      "password": "mypassword"
+    }
 }
